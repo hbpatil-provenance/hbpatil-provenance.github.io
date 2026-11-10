@@ -1,1 +1,138 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Hello</title></head><body><h1>Hello</h1></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provenance · Data Transactions · AI Governance · Lisbon</title>
+<meta name="description" content="Provenance is a new advisory firm for data transactions and AI governance, being established in Lisbon.">
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --fg: #1d1d1b;
+    --muted: #5d5b55;
+    --accent: #1f4d3a;
+    --rule: #d9d6cc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141513;
+      --fg: #ecebe6;
+      --muted: #a7a59c;
+      --accent: #8fc7ab;
+      --rule: #32342f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141513;
+    --fg: #ecebe6;
+    --muted: #a7a59c;
+    --accent: #8fc7ab;
+    --rule: #32342f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 4rem 16px 3rem;
+  }
+  .brand::before {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 1.75rem;
+  }
+  .brand {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.6rem, 9vw, 4rem);
+    line-height: 1.05;
+    letter-spacing: 0.12em;
+    color: var(--fg);
+    font-weight: 400;
+    margin: 0 0 0.75rem;
+  }
+  .tagline {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0.5rem 0 2.5rem;
+    letter-spacing: 0.04em;
+  }
+  .headline-sub {
+    font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--fg);
+    margin: 0 0 1.5rem;
+  }
+  .status {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin: 0 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 1.25rem; font-size: 1.05rem; max-width: 36em; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .contact { margin-top: 2.25rem; font-size: 1.1rem; }
+  .contact a {
+    display: inline-block;
+    padding: 0.7rem 1.25rem;
+    border: 1px solid var(--accent);
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    transition: background 0.2s, color 0.2s;
+  }
+  .contact a:hover, .contact a:focus-visible {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  footer {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 1.5rem 16px 2.5rem;
+    border-top: 1px solid var(--rule);
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  footer p { font-size: 0.85rem; margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="brand">PROVENANCE</h1>
+  <p class="tagline">Data Transactions · AI Governance · Lisbon</p>
+
+  <h2 class="headline-sub">Prove what you sell. Verify what you buy.</h2>
+
+  <p class="status">A new advisory firm, now being established in Lisbon.</p>
+
+  <p>Founded by Hemant Patil (CIPP/E, AIGP) after 24 years in enterprise technology, including Oracle and IBM. He is completing the LL.M. in Data Economy Law at the University for Continuing Education Krems.</p>
+
+  <p class="contact"><a href="mailto:office@provenancelda.eu">office@provenancelda.eu</a></p>
+</main>
+
+<footer>
+  <p>Site owner: Hemant Patil, St. Pölten, Austria. This page presents a company in formation. It sets no cookies and collects no personal data.</p>
+</footer>
+</body>
+</html>
